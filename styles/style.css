@@ -1,0 +1,44 @@
+.centerall{
+    max-width: 500px;
+    margin: auto;
+}
+h1{
+    grid-row: 1;
+    padding-right: 70px;
+    padding-top: 50px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: #77C3EC;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+#profileimage{
+    height: 200px;
+    width:auto;
+    grid-row: 1;
+    border-radius: 10px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 20px);
+    background-color: #77C3EC;
+    padding-left: 120px;
+    border-radius: 10px;
+}
+
+#footer_firstrow{
+    grid-row: 1;
+}
+
+#footer_secondrow{
+    grid-row: 2;
+}
