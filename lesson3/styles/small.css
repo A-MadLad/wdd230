@@ -21,14 +21,14 @@ body {
 
 header {
     
-    background-color: #4CBB17;
+    background-color: #0A7029;
     display: flex;
     align-items: center;
     
 }
 
 header div {
-    color: #FFFF00;
+    color: #FEDE00;
 }
 
 header h1 {
