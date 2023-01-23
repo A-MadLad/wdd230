@@ -46,7 +46,7 @@ header h3 {
 
 
 nav {
-    background-color: #2B690D;
+    background-color: #0A7029;
 }
 
 nav ul {
@@ -57,7 +57,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #FFFF00;
+    color: #FEDE00;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -66,15 +66,16 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: #4CBB17;
-    color: #FFFF00;
+    background-color: #0A7029;
+    color: #FEDE00;
     font-weight: bold;
+    text-decoration: underline;
 
 }
 
 nav ul li.active a {
-    background-color: #4CBB17;
-    color: #FFFF00;
+    background-color: #0A7029;
+    color: #FEDE00;
     font-weight: bold;
 }
 
@@ -84,8 +85,8 @@ main {
 }
 
 footer {
-    background-color: #4CBB17;
-    color: #FFFF00;
+    background-color: #0A7029;
+    color: #FEDE00;
     padding: .5rem 2%;
     text-align: center;
 }
