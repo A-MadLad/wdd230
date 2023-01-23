@@ -13,14 +13,14 @@ img {
 }
 
 header {
-    color: #F0EAD6;
+    color: black;
     background-color: #32CBF1;
     border-radius: 30px;
 }
 
 h3 {
     font-size: 20px;
-    color: white;
+    color: black;
     background-color: #32CBF1;
     border-radius: 10px;
 }
@@ -46,5 +46,5 @@ main section {
 
 footer {
     background-color: #32CBF1;
-    color: white;
+    color: black;
 }
