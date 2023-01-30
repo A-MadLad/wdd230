@@ -34,7 +34,13 @@ a{
     padding: 10px;
     text-decoration: none;
     color: #FEDE00;
-    padding-top: 50px;
+    /*padding-top: 50px;*/
+}
+
+button{
+    grid-row: 5;
+    grid-column: 1;
+    margin-left: -660px;
 }
 
 .left{
