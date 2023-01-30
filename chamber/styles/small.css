@@ -24,6 +24,10 @@ header {
     place-items: center;
 }
 
+#date{
+    padding-left: 20px;
+}
+
 .side li{
     display: inline;
     float: left;
