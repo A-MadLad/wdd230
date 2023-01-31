@@ -4,7 +4,7 @@
 <head>
     <title>Champions of Alamogordo</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=devide-width, initial scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A chamber of commerce website for Alamogordo, NM.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
@@ -17,31 +17,36 @@
 
 <body>
     <header>
-        <!-- Must contain a logo, site name, and navigation, spanning the entire screen in large view -->
         <span id="date"></span>
-        <div class="grid">
-            <img id="logo" src="images/logo.png" alt="chamber of commerce logo">
-            <h1>Champions of Alamogordo</h1>
-            <h2>Chamber of Commerce</h2>
-            <h3>We are a collection of local businesses dedicated to ensuring the ongoing prosperity of the Alamogordo
-                community.</h3>
+        <img id="logo" src="images/logo.png" alt="chamber of commerce logo">
+        <h1>Champions of Alamogordo</h1>
+        <h2>Chamber of Commerce</h2>
+        <h3>We are a collection of local businesses dedicated to ensuring the ongoing prosperity of the Alamogordo
+            community.</h3>
 
-            <!-- Navigation needs to contain four page links and two social media links -->
-            <button>&#9776;</button>
-            <ul class="side">
-                <li class="left"><a href="">Link one</a></li>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="">Link Two</a></li>
                 <li><a href="">Link Three</a></li>
                 <li><a href="">Link Four</a></li>
                 <li><a href="">Social Media One</a></li>
                 <li><a href="">Social Media Two</a></li>
             </ul>
-        </div>
-
+        </nav>
     </header>
-    <main></main>
+    <main>
+        <p>Hero with site name and call to action</p>
+        <p>Event</p>
+        <p>Weather</p>
+        <p>New Release</p>
+        <p>Spotlight 1</p>
+        <p>Spotlight 2</p>
+    </main>
     <footer>
-        &copy;<span id="year"></span> | Adam Judd | WDD 230 Project | Last Modification: <span id="last"></span>
+        <img src="images/logo.png" alt="chamber of commerce logo"> &copy;<span id="year"></span> | Adam Judd | WDD 230 Project | Last Modification: <span id="last"></span>
+        <a href="">Map Link</a>
     </footer>
     <script src="scripts/script.js"></script>
 

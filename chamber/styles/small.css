@@ -1,54 +1,5 @@
-body {
-    font-size: 16px;
-    font-family: "Bree Serif", sans-serif;
-}
-
-#logo {
-    width: 200px;
-    grid-row: 1;
-    grid-column: 1;
-    margin-left: -550px;
-    margin-bottom: -50px;
-}
-
-header {
-    background-color: #0A7029;
-    color: #FEDE00;
-    padding-top: 20px;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 30px);
-    place-items: center;
-}
-
-#date{
-    padding-left: 20px;
-}
-
-/* Move this to large.css */
-/*.side li{
-    display: inline;
-    float: left;
-}
-
-a{
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #FEDE00;
-    padding-top: 50px;
-}*/
-/* End of large.css */
-
-button {
-    grid-row: 2;
-    margin-left: -1850px;
-}
-
-nav button{
+nav button {
+    margin: .2rem 2vw;
     background: transparent;
     border: none;
     font-size: 2rem;
@@ -56,50 +7,90 @@ nav button{
 }
 
 nav {
-    background-color: #0A7029;
+    background-color: #eee;
 }
 
 nav ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li a {
     display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.left{
-    padding-left: 200px;
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
 }
 
-header h1 {
-    margin: 0;
-    grid-column: 1;
-    grid-row: 1;
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-header h2 {
-    margin-left: -135px;
-    font-weight: normal;
-
+nav ul {
+    display: none;
 }
 
-header h3 {
-    margin-right: -580px;
-    font-weight: normal;
+nav ul.open {
+    display: block;
 }
 
-ul{
-    list-style-type: none;
+#hamburgerBtn span:nth-child(1) {
+    display: block;
 }
 
-main {
-    padding: 0 2%;
-    min-height: 10rem;
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Bree Serif", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    background-color: #0A7029;
+    color: #FEDE00;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+footer img {
+    width: 80px;
+    margin-bottom: -30px;
 }
 
 footer {
     background-color: #0A7029;
     color: #FEDE00;
-    padding: .5rem 2%;
-    text-align: center;
+    margin-top: auto;
+}
+
+main p {
+    background-color: #0A7029;
+    padding: 80px;
+    color: #FEDE00;
 }

@@ -1,23 +1,17 @@
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 64rem) {
 
-    header, nav, main, footer {
-        min-width: 1080px;
-        margin: auto;
-    }}
+    nav button {display: none;}
 
-.side li{
-    display: inline;
-    float: left;
-}
+    nav ul#primaryNav {
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
 
-a{
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #FEDE00;
-}
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .5rem 1rem;
+    }
 
-button {
-    grid-row: 2;
-    margin-left: -1850px;
 }
