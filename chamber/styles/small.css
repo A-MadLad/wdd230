@@ -90,6 +90,10 @@ footer {
     padding-bottom: 20px;
 }
 
+footer a {
+    color: #FEDE00;
+}
+
 main p {
     background-color: #eee;
     padding: 80px;
