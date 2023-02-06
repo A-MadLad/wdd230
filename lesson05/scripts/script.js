@@ -5,8 +5,11 @@ const list = document.querySelector("#list");
 
 // Create an click event listener for the Add Chapter button using addEventListener and an anonymous function.
 button.addEventListener('click', function() {
+    if (input.value == ""){
+        input = "";
+    }
+    
     const chapter = input.value;
-    input.value = "";
     
     const li = document.createElement('li');
     const del_button = document.createElement('button');
@@ -19,7 +22,7 @@ button.addEventListener('click', function() {
 
     del_button.addEventListener('click', () => {
         li.remove() });
-        
+
     input.focus();
     input.value = "";
 })
