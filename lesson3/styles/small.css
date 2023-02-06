@@ -40,6 +40,22 @@ header h2 {
     font-weight: normal;
 }
 
+#persona1 {
+    list-style: none;
+}
+
+#persona1 img{
+    width: 100px;
+}
+
+#persona2{
+    list-style: none;
+}
+
+#persona2 img{
+    width: 140px;
+}
+
 header h3 {
     font-weight: normal;
 }
