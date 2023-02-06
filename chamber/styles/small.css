@@ -99,3 +99,11 @@ main p {
     padding: 80px;
     color: black;
 }
+
+#join{
+    display: none;
+}
+
+#spotlight3{
+    display: none;
+}
