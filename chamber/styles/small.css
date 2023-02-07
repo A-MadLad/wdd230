@@ -97,9 +97,7 @@ footer a {
 .main_page{
     background-color: #0A7029;
     color: #FEDE00;
-    margin-top: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin: 15px;
     border: solid #FEDE00 5px;
 }
 
