@@ -57,6 +57,11 @@ nav ul.open {
     display: none;
 }
 
+#primaryNav img{
+    width: 30px;
+    border-radius: 50%;
+}
+
 body {
     font-size: 16px;
     font-family: "Bree Serif", sans-serif;
