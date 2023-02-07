@@ -105,14 +105,14 @@ footer a {
     text-decoration: underline;
 }
 
-#hero a{
+#main_grid a{
     display: block;
     font-size: 20px;
     color: #FEDE00;
     text-decoration: none;
 }
 
-#hero a:hover{
+#main_grid a:hover{
     color: blue;
 }
 
