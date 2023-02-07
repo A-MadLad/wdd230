@@ -95,9 +95,23 @@ footer a {
 }
 
 main p {
-    background-color: #eee;
-    padding: 80px;
-    color: black;
+    background-color: #0A7029;
+    color: #FEDE00;
+}
+
+.main_page{
+    background-color: #0A7029;
+    color: #FEDE00;
+    margin-top: 15px;
+    border: solid #FEDE00 5px;
+}
+
+.main_page h2{
+    text-decoration: underline;
+}
+
+#weather img{
+    width: 100px;
 }
 
 #join{
