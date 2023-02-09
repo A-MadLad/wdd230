@@ -61,3 +61,13 @@ let d_mod = new Date(document.lastModified);
 let monthNum = monthNumbers[d_mod.getMonth()];
 let d_mod_format = `${monthNum}/${d_mod.getDate()}/${d_mod.getFullYear()} ${d_mod.getHours()}:${d_mod.getMinutes()}:${d_mod.getSeconds()}`;
 document.querySelector("#last").textContent = d_mod_format;
+
+// let banner = document.getElementById("banner");
+
+// function show_banner() {
+//     if (dayName != "Tuesday") {
+//         banner.remove()
+//     }
+// };
+
+// show_banner();

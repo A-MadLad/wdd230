@@ -69,11 +69,12 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: #F5F7ED;
 }
 
 header {
-    background-color: #0A7029;
-    color: #FEDE00;
+    background-color: #42C0D2;
+    color: #F5F7ED;
 }
 
 #logo {
@@ -119,6 +120,10 @@ footer a {
 
 #main_grid a:hover{
     color: blue;
+}
+
+#banner{
+    background-color: ;
 }
 
 #weather img{
