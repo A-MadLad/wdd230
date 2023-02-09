@@ -18,12 +18,12 @@
 <body>
     <header>
         <span id="date"></span>
-        <img id="logo" src="images/logo.png" alt="Chamber of commerce logo">
+        <img id="logo" src="images/logo.webp" alt="Chamber of commerce logo">
         <h1>Champions of Alamogordo</h1>
         <h2>Chamber of Commerce</h2>
         <h3>We are a collection of local businesses dedicated to ensuring the ongoing prosperity of the Alamogordo
             community.</h3>
-        <p id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</p>
+        <p id="banner">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</p>
 
         <nav>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
@@ -44,7 +44,12 @@
 
             <div id="hero" class="main_page">
                 <h2>Become a Champion of Alamogordo!</h2>
-                <img src="images/anm.jpg" alt="A picture of Alamogordo New Mexico">
+                <!--<img src="images/anm.jpg" alt="A picture of Alamogordo New Mexico"> -->
+                <picture>
+                    <source srcset="images/400.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                    <source srcset="images/600.jpg" media="(min-width: 800px)">
+                    <img src="images/250.jpg" alt="A group meeting">
+                </picture>
                 <a href="#">Join Here</a>
             </div>
 
@@ -105,7 +110,7 @@
         </div>
     </main>
     <footer>
-        <img src="images/logo.png" alt="chamber of commerce logo"> &copy;<span id="year"></span> | Adam Judd | WDD 230
+        <img src="images/logo.webp" alt="chamber of commerce logo"> &copy;<span id="year"></span> | Adam Judd | WDD 230
         Project | Last Modification: <span id="last"></span>
         <a href="">Map Link</a>
     </footer>
