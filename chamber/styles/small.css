@@ -127,6 +127,10 @@ footer a {
     display: inline;
 }
 
+#hero img{
+    width: 100%;
+}
+
 #weather img{
     width: 100px;
 }
