@@ -94,7 +94,7 @@ footer {
     background-color: #000066;
     color: #FAFBF4;
     margin-top: auto;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -162,12 +162,16 @@ footer a {
     flex-direction: column;
     text-align: center;
     width: 300px;
-    height: 300px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 #demographic{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    padding-top: 80px; 
+    padding-left: 50px;  
 }
 
 #demographic h2{
@@ -184,12 +188,13 @@ footer a {
     list-style-type: none;
 }
 
+/*
 #sources{
     display: flex;
     flex-direction: column;
-    padding-left: 340px;
+    padding-left: 35px;
     padding-bottom: 10px;
-}
+}*/
 
 #county_img{
     display: flex;
