@@ -75,6 +75,7 @@ nav ul.open {
 header {
     background-color: #000066;
     color: #FAFBF4;
+    text-align: center;
 }
 
 #logo {
@@ -94,6 +95,7 @@ footer {
     color: #FAFBF4;
     margin-top: auto;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 footer a {
@@ -154,14 +156,6 @@ footer a {
     background-color: #FAFBF4;
 }
 
-#discover header{
-    text-align: center;
-}
-
-#discover footer{
-    text-align: center;
-}
-
 #discover_img{
     display: flex;
     float: left;
@@ -169,12 +163,21 @@ footer a {
     text-align: center;
     width: 300px;
     height: 300px;
-    padding-top: 20px;
 }
 
 #demographic{
     display: flex;
     flex-direction: column;   
+}
+
+#demographic h2{
+    padding-left: 30px;
+    margin-bottom: -10px;
+}
+
+#demographic p{
+    padding-left: 40px;
+    margin-bottom: -10px;
 }
 
 #demographic ul{
