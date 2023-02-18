@@ -161,10 +161,13 @@ footer a {
     float: left;
     flex-direction: column;
     text-align: center;
-    width: 300px;
-    height: auto;
     padding-bottom: 10px;
     padding-left: 10px;
+}
+
+#discover_img img{
+    max-width: 100%;
+    height: auto;
 }
 
 #demographic{
@@ -187,14 +190,6 @@ footer a {
 #demographic ul{
     list-style-type: none;
 }
-
-/*
-#sources{
-    display: flex;
-    flex-direction: column;
-    padding-left: 35px;
-    padding-bottom: 10px;
-}*/
 
 #county_img{
     display: flex;
