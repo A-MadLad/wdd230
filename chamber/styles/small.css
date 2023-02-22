@@ -153,7 +153,7 @@ footer a {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #FAFBF4;
+    background-color: white;
 }
 
 #discover_img{
