@@ -170,6 +170,14 @@ footer a {
     height: auto;
 }
 
+#discover_img p{
+    margin-bottom: 5px;
+    border: solid 1px;
+    border-radius: 35%;
+    background-color: #000066;
+    color: #FAFBF4;
+}
+
 #demographic{
     display: flex;
     flex-direction: column;
