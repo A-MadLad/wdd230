@@ -62,4 +62,11 @@
         grid-row: 3;
     }
 
+    #county_img{
+        display: flex;
+        float: right;
+        margin-right: 250px;
+        margin-top: 100px;
+    }
+
 }
