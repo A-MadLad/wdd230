@@ -1,0 +1,48 @@
+:root {
+    --back: black;
+    --back2: #5A5A5A;
+    --border: black;
+    --zebra: hsl(0, 0%, 93%, 1);
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid var(--border);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--back);
+    font-size: .85rem;
+}
+
+tr:first-child th,
+.highlight {
+    background-color: var(--back);
+}
+
+th,
+td {
+    padding: 15px 15px;
+}
+
+th {
+    background-color: var(--back2);
+    font-size: larger;
+    color: white;
+    padding-left: 40px;
+}
+
+#black{
+    background-color: black;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
