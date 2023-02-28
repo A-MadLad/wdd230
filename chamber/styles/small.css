@@ -123,18 +123,6 @@ footer a {
     text-decoration: underline;
 }
 
-/*
-#main_grid a {
-    display: block;
-    font-size: 20px;
-    color: #FAFBF4;
-    text-decoration: none;
-}
-
-#main_grid a:hover {
-    color: blue;
-}*/
-
 .banner {
     border: double #FAFBF4 5px;
     display: inline;
@@ -165,6 +153,15 @@ footer a {
 
 #join {
     display: none;
+}
+
+.link{
+    color: #FAFBF4;
+    font-size: 20px;
+}
+
+.hover:hover{
+    color: blue;
 }
 
 #spotlight3 {

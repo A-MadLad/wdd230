@@ -16,6 +16,7 @@
 </head>
 
 <body class="body">
+
     <header>
         <span class="date"></span>
         <img id="logo" src="images/logo.webp" alt="Chamber of commerce logo">
@@ -39,18 +40,13 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <div id="main_grid">
 
             <div id="hero" class="main_page">
                 <h2><a href="join.html">Become a Champion of Alamogordo!</a></h2>
                 <img src="images/anm.jpg" alt="A picture of Alamogordo New Mexico">
-                <!--
-                <picture>
-                    <source srcset="images/400.jpg" media="(min-width: 500px) and (max-width: 799px)">
-                    <source srcset="images/600.jpg" media="(min-width: 800px)">
-                    <img src="images/250.jpg" alt="A group meeting">
-                </picture> -->
             </div>
 
             <div id="events" class="main_page">
@@ -66,8 +62,6 @@
                 <span id="temp">Temperature: 45&#8457;</span><br>
                 <span id="wind_speed">Wind Speed: 17mph</span><br>
                 <span id="wind_chill"></span>
-                <!--<p>The sun is out today folks!<br><br>We have a high of
-                    68&#8457; and a low of 40&#8457;.</p>-->
             </div>
 
             <div id="news" class="main_page">
@@ -80,7 +74,7 @@
             <div id="join" class="main_page">
                 <h2>Join</h2>
                 <p>Want to become a champion of Alamogordo?</p>
-                <a href="#">Join Here</a>
+                <a class="link hover" href="join.html">Join Here</a>
             </div>
 
             <div id="spotlight1" class="main_page">
@@ -88,7 +82,7 @@
                 <p>Flower shop, Florist</p>
                 <p>901 Texas Ave</p>
                 <p>(575) 434-2600</p>
-                <a href="https://www.alamogordoflowerco.com/" target="_blank">Flower Company Website</a>
+                <a class="link hover" href="https://www.alamogordoflowerco.com/" target="_blank">Flower Company Website</a>
             </div>
 
             <div id="spotlight2" class="main_page">
@@ -96,7 +90,7 @@
                 <p>Food & Drink, Specialty Food, Food Services</p>
                 <p>7320 Hwy 54 70, Alamogordo, NM 88310</p>
                 <p>(800) 368-3081</p>
-                <a href="https://pistachioland.com/" target="_blank">Pistachio Land Website</a>
+                <a class="link hover" href="https://pistachioland.com/" target="_blank">Pistachio Land Website</a>
 
             </div>
 
@@ -106,17 +100,19 @@
                 <p>3198 State Route 2001
                     Alamogordo, NM 88310</p>
                 <p>(575) 437-2840</p>
-                <a href="https://www.nmspacemuseum.org/?doing_wp_cron=1675807855.8371698856353759765625"
+                <a class="link hover" href="https://www.nmspacemuseum.org/?doing_wp_cron=1675807855.8371698856353759765625"
                     target="_blank">Space Museum Website</a>
             </div>
 
         </div>
     </main>
+
     <footer>
         <img src="images/logo.webp" alt="chamber of commerce logo"> &copy;<span id="year"></span> | Adam Judd | WDD 230
         Project | Last Modification: <span id="last"></span>
-        <a href="">Map Link</a>
+        <a class="hover" href="">Map Link</a>
     </footer>
+
     <script src="scripts/script.js"></script>
     <script src="scripts/windchill.js"></script>
 
