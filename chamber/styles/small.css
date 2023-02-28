@@ -57,7 +57,7 @@ nav ul.open {
     display: none;
 }
 
-#primaryNav img{
+#primaryNav img {
     width: 30px;
     border-radius: 50%;
 }
@@ -78,11 +78,11 @@ header {
     text-align: center;
 }
 
-.date{
+.date {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: -70px;
+    margin-bottom: -60px;
     margin-top: 30px;
     margin-left: 10px;
 }
@@ -112,52 +112,68 @@ footer a {
     color: #FAFBF4;
 }
 
-.main_page{
+.main_page {
     background-color: #000066;
     color: #FAFBF4;
     margin: 15px;
     border: solid black 5px;
 }
 
-.main_page h2{
+.main_page h2 {
     text-decoration: underline;
 }
 
-#main_grid a{
+/*
+#main_grid a {
     display: block;
     font-size: 20px;
     color: #FAFBF4;
     text-decoration: none;
 }
 
-#main_grid a:hover{
+#main_grid a:hover {
     color: blue;
-}
+}*/
 
-.banner{
+.banner {
     border: double #FAFBF4 5px;
     display: inline;
 }
 
 #hero img{
     width: 100%;
+    height: 100%;
 }
 
-#weather img{
+#hero h2 {
+    position: absolute;
+    color: #000066;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#hero a:hover{
+    color: blue;
+}
+
+#weather img {
     width: 100px;
 }
 
-#join{
+#join {
     display: none;
 }
 
-#spotlight3{
+#spotlight3 {
     display: none;
 }
 
 /* The Discover Page */
 
-#discover{
+#discover {
     font-size: 16px;
     font-family: "Bree Serif", sans-serif;
     min-height: 100vh;
@@ -171,7 +187,7 @@ footer a {
     text-align: center;
 }*/
 
-#discover_img{
+#discover_img {
     display: flex;
     float: left;
     flex-direction: column;
@@ -180,12 +196,12 @@ footer a {
     padding-left: 10px;
 }
 
-#discover_img img{
+#discover_img img {
     max-width: 100%;
     height: auto;
 }
 
-#discover_img p{
+#discover_img p {
     margin-bottom: 5px;
     border: solid 1px;
     border-radius: 35%;
@@ -193,37 +209,36 @@ footer a {
     color: #FAFBF4;
 }
 
-#demographic{
+#demographic {
     display: flex;
     flex-direction: column;
-    padding-top: 80px; 
-    padding-left: 50px;  
+    padding-top: 80px;
+    padding-left: 50px;
 }
 
-#demographic h2{
+#demographic h2 {
     padding-left: 30px;
     margin-bottom: -10px;
 }
 
-#demographic p{
+#demographic p {
     padding-left: 40px;
     margin-bottom: -10px;
 }
 
-#demographic ul{
+#demographic ul {
     list-style-type: none;
 }
 
-#county_img{
+#county_img {
     display: none;
 }
 
 /* Join Page */
 
-.flex_center_column{
+.flex_center_column {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
