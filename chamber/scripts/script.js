@@ -39,7 +39,7 @@ let dayName = daynames[d.getDay()];
 let monthName = months[d.getMonth()];
 let fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 
-document.querySelector("#date").textContent = fulldate;
+document.querySelector(".date").textContent = fulldate;
 document.querySelector("#year").textContent = year;
 
 let monthNumbers = [

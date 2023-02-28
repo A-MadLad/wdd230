@@ -78,11 +78,21 @@ header {
     text-align: center;
 }
 
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -70px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
 #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
+    margin-bottom: -100px;
 }
 
 footer img {
