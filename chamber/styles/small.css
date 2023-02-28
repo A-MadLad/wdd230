@@ -124,7 +124,7 @@ footer a {
     color: blue;
 }
 
-#banner{
+.banner{
     border: double #FAFBF4 5px;
     display: inline;
 }
