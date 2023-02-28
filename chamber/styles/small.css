@@ -62,7 +62,7 @@ nav ul.open {
     border-radius: 50%;
 }
 
-#index {
+.body {
     font-size: 16px;
     font-family: "Bree Serif", sans-serif;
     min-height: 100vh;
@@ -207,3 +207,13 @@ footer a {
 #county_img{
     display: none;
 }
+
+/* Join Page */
+
+.flex_center_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
