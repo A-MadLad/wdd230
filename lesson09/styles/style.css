@@ -21,3 +21,8 @@ img {
     width: 200px;
     height: auto;
 }
+
+footer{
+    text-align: center;
+    padding-top: 3px;
+}
