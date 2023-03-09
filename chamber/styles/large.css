@@ -76,8 +76,10 @@
         flex-wrap: wrap;
         float: left;
         width: 400px;
-        height: 410px;
+        height: 431px;
         margin-left: 150px;
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
 
 }
