@@ -76,10 +76,14 @@
         flex-wrap: wrap;
         float: left;
         width: 400px;
-        height: 431px;
+        height: 400px;
         margin-left: 150px;
         margin-bottom: 15px;
         margin-top: 15px;
+    }
+
+    .cards p{
+        margin: 10px;
     }
 
 }

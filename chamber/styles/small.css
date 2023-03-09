@@ -258,6 +258,10 @@ footer a {
     display: none;
 }
 
+.cards a{
+    color: #FAFBF4;
+}
+
 .cards a:hover{
     color: blue;
 }

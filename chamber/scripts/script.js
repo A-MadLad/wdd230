@@ -96,13 +96,16 @@ const displayData = (business) => {
         let phone = document.createElement('p');
         let web = document.createElement('a');
 
+        web.title = "Visit Website";
+        web.href = place.url;
+
         image.setAttribute('src', place.image);
-        image.setAttribute('alt', `Picture of business`);
+        image.setAttribute('alt', `Picture of a business`);
 
         h2.textContent = `${place.name}`;
-        address.textContent = `Address: ${place.address}`
-        phone.textContent = `Phone Number: ${place.phone}`
-        web.textContent = `Website: ${place.url}`
+        address.textContent = `Address: ${place.address}`;
+        phone.textContent = `Phone Number: ${place.phone}`;
+        web.textContent = web.title;
 
         card.appendChild(h2);
         card.appendChild(image);
