@@ -1,0 +1,76 @@
+{
+    "business": [
+        {
+            "name": "Pistachio Land",
+            "address": "7320 Hwy 54 70",
+            "phone": "(800) 368-3081",
+            "url": "https://pistachioland.com/",
+            "image": "images/pi_land300.jpg",
+            "level": 1
+        },
+        {
+            "name": "Alamogordo Flower Company",
+            "address": "901 Texas Ave",
+            "phone": "(575) 434-2600",
+            "url": "https://www.alamogordoflowerco.com/",
+            "image": "images/flower300.jpg",
+            "level": 2
+        },
+        {
+            "name": "New Mexico Museum of Space History",
+            "address": "3198 State Route 2001",
+            "phone": "(575) 437-2840",
+            "url": "https://www.nmspacemuseum.org/?doing_wp_cron=1675807855.8371698856353759765625",
+            "image": "images/museum300.jpg",
+            "level": 3
+        },
+        {
+            "name": "Alameda Park Zoo",
+            "address": "1021 N White Sands Blvd",
+            "phone": "(575) 439-4290",
+            "url": "https://ci.alamogordo.nm.us/170/About-the-Zoo",
+            "image": "images/zoo300.jpg",
+            "level": 4
+        },
+        {
+            "name": "Rocket City Family Fun Center",
+            "address": "3751 Mesa Village Dr",
+            "phone": "(575) 488-3400",
+            "url": "https://rocketct.com/",
+            "image": "images/rocket_city300.jpg",
+            "level": 5
+        },
+        {
+            "name": "Old Apple Barn",
+            "address": "949 Highway 82, High Rolls",
+            "phone": "(575) 682-2276",
+            "url": "http://www.oldapplebarn.com/",
+            "image": "images/apple300.jpg",
+            "level": 6
+        },
+        {
+            "name": "Flickinger Center for Performing Arts",
+            "address": "1110 New York Ave",
+            "phone": "(575) 437-2202",
+            "url": "https://flickingercenter.com/",
+            "image": "images/arts300.jpg",
+            "level": 7
+        },
+        {
+            "name": "White Sands National Park",
+            "address": "19955 Hwy 70 W",
+            "phone": "575-479-6124",
+            "url": "https://www.nps.gov/whsa/index.htm",
+            "image": "images/sands300.jpg",
+            "level": 8
+        },
+        {
+            "name": "Carr, Riggs & Ingram, LLC",
+            "address": "115 S Florida Ave Ste E",
+            "phone": "(575) 437-5573",
+            "url": "https://cricpa.com/",
+            "image": "images/cri300.jpg",
+            "level": 9
+        }
+    ]
+}

@@ -71,3 +71,45 @@ function show_banner() {
 };
 
 show_banner();
+
+// Directory Cards
+
+const url = "json/data.json";
+
+async function getData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    displayData(data.business);
+}
+
+getData();
+
+const displayData = (business) => {
+    const cards = document.querySelector('div.cards');
+
+    business.forEach((place) => {
+
+        let card = document.createElement('section');
+        let h2 = document.createElement('h2');
+        let image = document.createElement('img');
+        let address = document.createElement('p');
+        let phone = document.createElement('p');
+        let web = document.createElement('a');
+
+        image.setAttribute('src', place.image);
+        image.setAttribute('alt', `Picture of business`);
+
+        h2.textContent = `${place.name}`;
+        address.textContent = `Address: ${place.address}`
+        phone.textContent = `Phone Number: ${place.phone}`
+        web.textContent = `Website: ${place.url}`
+
+        card.appendChild(h2);
+        card.appendChild(image);
+        card.appendChild(address);
+        card.appendChild(phone);
+        card.appendChild(web);
+
+        cards.appendChild(card);
+    }) 
+  };
