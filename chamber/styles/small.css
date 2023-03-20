@@ -143,8 +143,13 @@ footer a {
     text-align: center;
 }
 
+#link_hero {
+    background-color: #000066;
+    color: #FAFBF4;
+}
+
 #hero a:hover{
-    color: blue;
+    color: yellow;
 }
 
 #weather img {
