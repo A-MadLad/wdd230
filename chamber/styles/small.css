@@ -283,6 +283,16 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
+#memBenefits {
+    display: none;
+}
+
+#join {
+    font-size: 16px;
+    font-family: "Bree Serif", sans-serif;
+    min-height: 100vh;
+}
+
 
 /* Directory Page */
 
