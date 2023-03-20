@@ -131,7 +131,7 @@ if (numVisits !== null) {
         sinceVisited = (newDay - visit) / 86400000;
         numVisits.textContent = sinceVisited.toFixed(0);
     } else {
-        numVisits.textContent = ` This is your first visit to our website!`;
+        numVisits.textContent = 0;
     }
 }
 
