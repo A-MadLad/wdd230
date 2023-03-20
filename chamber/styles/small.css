@@ -7,7 +7,7 @@ nav button {
 }
 
 nav {
-    background-color: #eee;
+    background-color: #000066;
 }
 
 nav ul {
@@ -20,17 +20,17 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #333;
+    color: #FAFBF4;
     border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #fff;
+    background-color: black;
+    color: #FAFBF4;
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: black;
 }
 
 nav ul {

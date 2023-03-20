@@ -2,6 +2,12 @@
 
     nav button {display: none;}
 
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     nav ul#primaryNav {
         display: flex;
         margin-left: 2vw;
