@@ -74,4 +74,15 @@
         padding-left: 40px;
         margin-bottom: -10px;
     }
+
+    .form_inlineFlex{
+        display: inline-flex;
+        flex-direction: column;
+        width: 370px;
+        margin-left: 600px;
+    }
+
+    #contact_info{
+        margin-left: 600px;
+    }
 }

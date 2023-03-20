@@ -111,4 +111,15 @@
         margin-top: 200px;
     }
 
+    #contact_info{
+        margin-left: 600px;
+    }
+
+    .form_inlineFlex{
+        display: inline-flex;
+        flex-direction: column;
+        width: 370px;
+        margin-left: 0px;
+    }
+
 }

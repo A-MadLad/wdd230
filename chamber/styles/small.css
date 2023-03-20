@@ -323,3 +323,28 @@ form label.top input:required:valid {
 .cards a:hover{
     color: blue;
 }
+
+/* Contact Page */
+
+#contact_page{
+    font-size: 16px;
+    font-family: "Bree Serif", sans-serif;
+    min-height: 100vh;
+}
+
+#contact_info {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #000066;
+    border: 5px solid black;
+    color: #FAFBF4;
+    margin: 50px;
+    padding: 10px;
+}
+
+.form_inlineFlex{
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}

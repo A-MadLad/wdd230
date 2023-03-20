@@ -2,10 +2,10 @@
 <html lang="en-US">
 
 <head>
-    <title>Directory</title>
+    <title>Champions of Alamogordo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The directory page.">
+    <meta name="description" content="A chamber of commerce website for Alamogordo, NM.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 </head>
 
-<body class="body">
+<body id="contact_page">
 
     <header>
         <span class="date"></span>
@@ -32,8 +32,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li class="active"><a href="directory.html">Directory</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
                 <li><a href="https://www.facebook.com/" target="_blank"><img src="images/fb_icon.jpg"
                             alt="Facebook logo"></a></li>
                 <li><a href="https://twitter.com/?lang=en" target="_blank"><img src="images/tw_icon.png"
@@ -43,7 +43,32 @@
     </header>
 
     <main>
-        <div class="cards"></div>
+        <div id="contact_info">
+            <h2>Contact Information</h2>
+            <p>Alamogordo Center of Commerce<br>1301 N. White Sands Blvd., Alamogordo, NM,
+                88310<br><br><strong>Phone:</strong>
+                575-437-6120<br><strong>Email:</strong> hello@alamogordo.com</p>
+            <h2>Hours of Operation</h2>
+            <p>Monday - Friday: 9 AM - 4 PM</p>
+        </div>
+
+        <form class="form_inlineFlex" action="questions.html" method="get">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label class="top" for="firstName">First Name*<input id="firstName" type="text" required></label>
+                <label class="top" for="lastName">Last Name*<input id="lastName" type="text" required></label>
+                <label class="top" for="eMail">Email*<input id="eMail" type="email" placeholder="example@gmail.com" required></label>
+                <div>Please enter the questions you have for the commerce*</div>
+                <label class="top" for="comQuestions">
+                    <textarea id="comQuestions" name="description" rows="4"
+                        cols="50">Enter your questions here please.</textarea></label>
+
+                <input type="submit" value="Send My Questions to the commerce" class="submitBtn">
+            </fieldset>
+        </form>
+
+
+
     </main>
 
     <footer>
@@ -53,6 +78,7 @@
     </footer>
 
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 
 </body>
 
