@@ -114,5 +114,26 @@ const displayData = (business) => {
         card.appendChild(web);
 
         cards.appendChild(card);
-    }) 
-  };
+    })
+};
+
+// Discover Page: Days Since Last Visit
+
+const numVisits = document.querySelector(".days");
+
+let visit = Number(localStorage.getItem("visit-ls"));
+
+let today = new Date();
+let newDay = Date.now();
+
+if (numVisits !== null) {
+    if (visit !== 0) {
+        sinceVisited = (newDay - visit) / 86400000;
+        numVisits.textContent = sinceVisited.toFixed(0);
+    } else {
+        numVisits.textContent = `Welcome!`;
+    }
+}
+
+
+localStorage.setItem("visit-ls", newDay);

@@ -186,11 +186,12 @@ footer a {
 
 #discover_img {
     display: flex;
-    float: left;
+    justify-content: center;
     flex-direction: column;
     text-align: center;
     padding-bottom: 10px;
     padding-left: 10px;
+    margin-right: 10px;
 }
 
 #discover_img img {
@@ -198,7 +199,7 @@ footer a {
     height: auto;
 }
 
-#discover_img p {
+#discover_img .img_title {
     margin-bottom: 5px;
     border: solid 1px;
     border-radius: 35%;
@@ -207,20 +208,8 @@ footer a {
 }
 
 #demographic {
-    display: flex;
-    flex-direction: column;
-    padding-top: 80px;
-    padding-left: 50px;
-}
-
-#demographic h2 {
-    padding-left: 30px;
-    margin-bottom: -10px;
-}
-
-#demographic p {
-    padding-left: 40px;
-    margin-bottom: -10px;
+    justify-content: center;
+    margin-left: 10px;
 }
 
 #demographic ul {
@@ -229,6 +218,15 @@ footer a {
 
 #county_img {
     display: none;
+}
+
+.visits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #000066 double 5px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 /* Join Page */
