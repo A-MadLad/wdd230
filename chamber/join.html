@@ -2,10 +2,10 @@
 <html lang="en-US">
 
 <head>
-    <title>Champions of Alamogordo</title>
+    <title>Join</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A chamber of commerce website for Alamogordo, NM.">
+    <meta name="description" content="Chamber of commerce join page.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 </head>
 
-<body class="body">
+<body>
     <header>
         <span class="date"></span>
         <img id="logo" src="images/logo.webp" alt="Chamber of commerce logo">
@@ -41,23 +41,47 @@
     </header>
 
     <main>
-        <form class="flex_center_column" actio="thankyou.html" method="get">
+        <form action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Applicant Information</legend>
 
-            <label for="first_name">First name:</label>
-            <input type="text" required>
+                <label class="top" for="first_name">First name*
+                    <input type="text" required></label>
 
-            <label for="last_name">Last name:</label>
-            <input type="text" required>
+                <label class="top" for="last_name">Last name*
+                    <input type="text" required></label>
 
-            <label for="business_title">Business position title:</label>
-            <input type="text" patter="[a-z]- {7}">
+                <label class="top" for="business_title">Business position title:
+                    <input type="text" patter="^(?=.*[a-zA-Z])[a-zA-Z\s\-]{7,}$"></label>
 
-            <label for="email">Email:</label>
-            <input type="email" placeholder="example_email@gmail.com" required>
+                <label class="top" for="email">Email*
+                    <input type="email" placeholder="example_email@gmail.com" required></label>
 
-            <label for="cell_phone_number">Cell phone number:</label>
-            <input type="tel" required>
-            <!--A business name/title text field that is required-->
+                <label class="top" for="cell_phone_number">Cell phone number*
+                    <input type="tel" required></label>
+
+                <label class="top" for="business_name">Business Name*
+                    <input type="text" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Level</legend>
+                <div>Membership</div>
+                <label class="sbs"><input type="radio" name="membership" value="np"> Non-Profit</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Description</legend>
+                <textarea id="business_description" name="description" rows="4"
+                    cols="50">Enter your business description here please.</textarea>
+            </fieldset>
+
+            <input type="submit" value="Join My Local Chamber" class="submitBtn">
+            <input type="hidden" id="hiddenDate" name="hiddenDate">
+
         </form>
     </main>
 

@@ -137,3 +137,6 @@ if (numVisits !== null) {
 
 
 localStorage.setItem("visit-ls", newDay);
+
+// Join Page Hidden Date
+document.getElementById("hiddenDate").value = new Date();
