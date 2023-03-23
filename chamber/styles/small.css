@@ -298,6 +298,10 @@ form label.top input:required:valid {
     min-height: 100vh;
 }
 
+#join_page header{
+    margin-top: -30px;
+}
+
 
 /* Directory Page */
 
@@ -347,4 +351,8 @@ form label.top input:required:valid {
     display: inline-flex;
     flex-direction: column;
     width: 100%;
+}
+
+#contact_page header{
+    margin-top: -30px;
 }
