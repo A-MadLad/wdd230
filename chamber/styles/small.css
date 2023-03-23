@@ -76,6 +76,7 @@ header {
     background-color: #000066;
     color: #FAFBF4;
     text-align: center;
+    margin-top: -30px;
 }
 
 .date {
@@ -298,11 +299,6 @@ form label.top input:required:valid {
     min-height: 100vh;
 }
 
-#join_page header{
-    margin-top: -30px;
-}
-
-
 /* Directory Page */
 
 .cards section{
@@ -351,8 +347,4 @@ form label.top input:required:valid {
     display: inline-flex;
     flex-direction: column;
     width: 100%;
-}
-
-#contact_page header{
-    margin-top: -30px;
 }
