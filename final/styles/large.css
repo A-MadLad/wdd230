@@ -4,12 +4,12 @@
         display: flex;
         flex-direction: row;
     }
-    
-    header nav ul{
+
+    header nav ul {
         display: flex;
         flex-direction: row;
     }
-    
+
     header nav ul li {
         padding-left: 100px;
         padding-right: 100px;
@@ -27,7 +27,7 @@
         display: none;
     }
 
-    header #logIn{
+    header #logIn {
         margin-top: 0px;
         margin-left: auto;
         margin-right: 10px;
@@ -45,7 +45,7 @@
         background-color: #ECD7BC;
         color: #95675B;
     }
-    
+
     #callAction button {
         margin-top: 350px;
     }
