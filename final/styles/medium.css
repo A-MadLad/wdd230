@@ -1,5 +1,31 @@
 @media screen and (min-width: 40em) {
 
-    
+    #callAction h2 {
+        display: block;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin-top: -5px;
+        background-color: #ECD7BC;
+        color: #95675B;
+    }
+
+    #callAction button {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 100%;
+        max-width: 220px;
+        height: 50px;
+        border-radius: 35%;
+        font-size: 20px;
+        margin-top: 20px;
+    }
 
 }
