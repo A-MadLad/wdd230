@@ -1,0 +1,92 @@
+/* Index Page */
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #ECD7BC;
+    color: #95675B;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+header #logo {
+    width: 50px;
+    height: 50px;
+}
+
+header h1{
+    font-size: 23px;
+}
+
+header button{
+    width: 100px;
+    height: 50px;
+}
+
+header #logIn{
+    margin-top: 15px;
+}
+
+/* Navigation Small Screen */
+
+header nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #95675B;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #95675B;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li.active a {
+    background-color: black;
+    color: white;
+}
+
+header nav ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+header nav ul {
+    display: none;
+}
+
+header nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#primaryNav img {
+    width: 30px;
+    border-radius: 50%;
+}
