@@ -1,17 +1,6 @@
 @media screen and (min-width: 40em) {
 
-    #callAction h2 {
-        display: block;
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-        margin-top: -5px;
-        background-color: #ECD7BC;
-        color: #95675B;
-    }
+
 
     #callAction button {
         position: absolute;

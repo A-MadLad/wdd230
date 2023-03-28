@@ -34,7 +34,16 @@
     }
 
     #callAction h2 {
+        display: block;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
         margin-top: 50px;
+        background-color: #ECD7BC;
+        color: #95675B;
     }
     
     #callAction button {
