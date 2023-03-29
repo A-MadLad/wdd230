@@ -1,10 +1,5 @@
 @media screen and (min-width: 64em) {
 
-    header {
-        display: flex;
-        flex-direction: row;
-    }
-
     header nav ul {
         display: flex;
         flex-direction: row;

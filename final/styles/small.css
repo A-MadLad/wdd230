@@ -2,7 +2,7 @@
 
 header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #ECD7BC;
     color: #95675B;
     width: 100%;
@@ -80,13 +80,13 @@ header nav ul li a {
 }
 
 header nav ul li.active a {
-    background-color: black;
-    color: white;
+    background-color: #95675B;
+    color: #ECD7BC;
 }
 
 header nav ul li a:hover {
-    background-color: black;
-    color: white;
+    background-color: #95675B;
+    color: #ECD7BC;
 }
 
 header nav ul {
@@ -95,6 +95,8 @@ header nav ul {
 
 header nav ul.open {
     display: block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #hamburgerBtn span:nth-child(1) {
