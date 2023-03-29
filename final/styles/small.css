@@ -24,10 +24,6 @@ header button {
     height: 50px;
 }
 
-header #logIn {
-    margin-top: 15px;
-}
-
 #cta {
     width: 100%;
     height: auto;
