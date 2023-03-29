@@ -50,6 +50,19 @@ header button {
     color: #95675B;
 }
 
+footer {
+    display: flex;
+    background-color: #ECD7BC;
+    color: #95675B;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+
 /* Navigation Small Screen */
 
 header nav button {
