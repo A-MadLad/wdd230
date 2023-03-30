@@ -38,6 +38,7 @@
         text-align: center;
         background-color: #ECD7BC;
         color: #95675B;
+        border: 5px #95675B solid;
         width: 300px;
         height: 200px;
     }
