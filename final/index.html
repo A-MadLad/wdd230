@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <!-- I need a logo, page navigation, and log in button -->
     <header>
         <img id="logo" src="images/logo.png" alt="A picture of a strawberry.">
         <h1>Bountiful<br>Foods</h1>
@@ -23,6 +22,12 @@
                 <li class="active"><a href="index.html"><strong>Home</strong></a></li>
                 <li><a href="#"><strong>Fresh</strong></a></li>
                 <li><a href="#"><strong>About Us</strong></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="images/fb_icon.jpg"
+                            alt="facebook logo"></a></li>
+                <li><a href="https://twitter.com/?lang=en" target="_blank"><img src="images/tw_icon.png"
+                            alt="twitter logo"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="images/ig.png"
+                            alt="instagram logo"></a></li>
             </ul>
         </nav>
         <button id="logIn" type="button">Log in</button>
@@ -31,10 +36,36 @@
     <main>
         <div id="callAction">
             <h2>Create your own specialty drink using our locally grown organic produce</h2>
-            <button type="button" onclick="window.location.href='fresh.html';"><strong>Create My Specialty Drink</strong></button>
+            <button type="button" onclick="window.location.href='fresh.html';"><strong>Create My Specialty
+                    Drink</strong></button>
         </div>
-            <img id="cta" src="images/cta3.jpg" alt="A picture of various fruits and smoothies.">
-        
+        <img id="cta" src="images/cta3.jpg" alt="A picture of various fruits and smoothies.">
+        <div id="home_grid">
+            <div id="contact_info" class="home_card">
+                <h3><u>Contact Us</u><br><br>Phone: 867-5309<br>Email: bfoods@gmail.com</h3>
+            </div>
+
+            <div id="summary_info" class="home_card">
+                <h3><u>Summary</u><br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, suscipit.</h3>
+            </div>
+
+            <div id="weather_info" class="home_card">
+                <h3><u>Weather</u></h3>
+                <figure>
+                    <img src="http://placekitten.com/200/300" alt="placeholder" id="weather-icon">
+                    <figcaption></figcaption>
+                </figure>
+                <p>The current temperature in Carlsbad is <span id="current-temp"></span> &deg;F</p>
+                <p>Humidity: <span id="humidity"></span>%<br><br>Wind Speed: <span id="speed"></span> mph | Wind Chill: <span id="chill"></span></p>
+                <p></p>
+                <p></p>
+            </div>
+
+            <div id="number_drinks" class="home_card">
+                <h3><u>Created Drinks</u><br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, commodi.</h3>
+            </div>
+        </div>
+
 
     </main>
 
@@ -42,6 +73,7 @@
     <!--I need to put the logo in front -->
 
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 
