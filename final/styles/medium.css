@@ -1,18 +1,30 @@
 @media screen and (min-width: 50em) {
 
+    #cta {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 
-
-    #callAction button {
+    #callAction {
         position: absolute;
+        margin-top: 100px;
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
         text-align: center;
-        width: 220px;
-        height: 50px;
-        border-radius: 35%;
-        font-size: 20px;
+        width: 300px;
+        height: auto;
+        background-color: #ECD7BC;
+        color: #95675B;
+        border: #95675B 5px outset;
+    }
+
+    #callAction:hover {
+        border: #95675B 5px inset;
+        background-color: #95675B;
+        color: #ECD7BC;
     }
 
     #home_grid{
@@ -26,17 +38,17 @@
         grid-column: span 2;
     }
 
-    #home_grid #weather_info {
-        grid-row: 1;
-        grid-column: span 2;
-    }
-
     #home_grid #summary_info {
         grid-row: 2;
         grid-column: 1;
     }
 
     #home_grid #number_drinks {
+        grid-row: 1;
+        grid-column: span 2;
+    }
+
+    #home_grid #weather_info {
         grid-row: 2;
         grid-column: 2;
     }

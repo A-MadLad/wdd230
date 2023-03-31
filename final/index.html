@@ -14,13 +14,17 @@
 
 <body>
     <header>
-        <img id="logo" src="images/logo.png" alt="A picture of a strawberry.">
-        <h1>Bountiful<br>Foods</h1>
+        <a class="logo_link" href="index.html">
+            <img id="logo" src="images/logo.png" alt="A picture of a strawberry.">
+        </a>
+        <a class="logo_link" href="index.html">
+            <h1>Bountiful<br>Foods</h1>
+        </a>
         <nav>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
                 <li class="active"><a href="index.html"><strong>Home</strong></a></li>
-                <li><a href="#"><strong>Fresh</strong></a></li>
+                <li><a href="fresh.html"><strong>Fresh</strong></a></li>
                 <li><a href="#"><strong>About Us</strong></a></li>
                 <li><a href="https://www.facebook.com/" target="_blank"><img src="images/fb_icon.jpg"
                             alt="facebook logo"></a></li>
@@ -34,19 +38,22 @@
     </header>
 
     <main>
-        <div id="callAction">
-            <h2>Create your own specialty drink using our locally grown organic produce</h2>
-            <button type="button" onclick="window.location.href='fresh.html';"><strong>Create My Specialty
-                    Drink</strong></button>
-        </div>
-        <img id="cta" src="images/cta3.jpg" alt="A picture of various fruits and smoothies.">
+        <a id="ca_link" href="fresh.html">
+            <div id="callAction">
+                <h3>Create My Specialty Drink<br></h3>
+            </div>
+        </a>
+        <img id="cta" src="images/cta5.jpg" alt="A picture of various fruits and smoothies.">
+
         <div id="home_grid">
+
             <div id="contact_info" class="home_card">
                 <h3><u>Contact Us</u><br><br>Phone: 867-5309<br>Email: bfoods@gmail.com</h3>
             </div>
 
             <div id="summary_info" class="home_card">
-                <h3><u>Summary</u><br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, suscipit.</h3>
+                <h3><u>Summary</u><br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis,
+                    suscipit.</h3>
             </div>
 
             <div id="weather_info" class="home_card">
@@ -56,13 +63,16 @@
                     <figcaption></figcaption>
                 </figure>
                 <p>The current temperature in Carlsbad is <span id="current-temp"></span> &deg;F</p>
-                <p>Humidity: <span id="humidity"></span>%<br><br>Wind Speed: <span id="speed"></span> mph | Wind Chill: <span id="chill"></span></p>
+                <p>Humidity: <span id="humidity"></span>%<br><br>Wind Speed: <span id="speed"></span> mph | Wind Chill:
+                    <span id="chill"></span>
+                </p>
                 <p></p>
                 <p></p>
             </div>
 
             <div id="number_drinks" class="home_card">
-                <h3><u>Created Drinks</u><br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, commodi.</h3>
+                <h3><u>Created Drinks</u><br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
+                    commodi.</h3>
             </div>
         </div>
 

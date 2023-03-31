@@ -1,5 +1,11 @@
 /* Index Page */
 
+body {
+    background-color: #ECD7BC;
+    border: #95675B 3px solid;
+    
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -19,34 +25,41 @@ header h1 {
     font-size: 23px;
 }
 
+.logo_link {
+    text-decoration: none;
+    color: #95675B;
+}
+
 header button {
     width: 100px;
     height: 50px;
 }
 
 #cta {
-    width: 100%;
-    height: auto;
-}
-
-#callAction h2 {
     display: none;
 }
 
-#callAction button {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+#callAction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    width: 220px;
-    height: 50px;
-    border-radius: 35%;
-    font-size: 20px;
+    width: 100%;
+    height: auto;
     background-color: #ECD7BC;
     color: #95675B;
-    margin-top: 50px;
+    border: #95675B 1px outset;
+}
+
+#callAction:hover {
+    border: #95675B 1px inset;
+    background-color: #95675B;
+    color: #ECD7BC;
+}
+
+#ca_link {
+    text-decoration: none;
 }
 
 #home_grid{
@@ -59,9 +72,7 @@ header button {
 }
 
 .home_card {
-    background-color: #ECD7BC;
     color: #95675B;
-    border: 5px #95675B solid;
     width: auto;
     height: auto;
     text-align: center;
@@ -76,6 +87,7 @@ footer {
     width: 100%;
     height: auto;
     justify-content: center;
+    border-top: 1px solid #95675B;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
