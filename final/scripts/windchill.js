@@ -49,7 +49,7 @@ async function apiFetch2() {
         if (response.ok) {
             const data = await response.json();
             console.log(data);
-            displayResults(data);
+            displayForecast(data);
         } else {
             throw Error(await response.text());
         }
@@ -59,6 +59,11 @@ async function apiFetch2() {
 };
 
 apiFetch2();
+
+function displayForecast(forecastData) {
+    temp2.innerHTML = `${forecastData.list[1].main.temp.toFixed(0)}`;
+    temp3.innerHTML = `${forecastData.list[2].main.temp.toFixed(0)}`;
+};
 
 
 // Windchill
