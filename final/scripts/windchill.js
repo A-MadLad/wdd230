@@ -6,6 +6,8 @@ const captionDesc = document.querySelector('figcaption');
 const windSpeed = document.querySelector('#speed');
 const windChill = document.querySelector('#chill');
 const humidity = document.querySelector('#humidity');
+const temp2 = document.querySelector('#temp2');
+const temp3 = document.querySelector('#temp3');
 
 const url2 = 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=458f4ec6f678f2377b139701bacd2ef2';
 async function apiFetch() {
@@ -37,6 +39,26 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
 };
+
+// Forecast
+const url3 = 'https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&units=imperial&appid=458f4ec6f678f2377b139701bacd2ef2';
+
+async function apiFetch2() {
+    try {
+        const response = await fetch(url3);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            displayResults(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+};
+
+apiFetch2();
 
 
 // Windchill

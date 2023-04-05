@@ -32,7 +32,27 @@ let fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 
 document.querySelector("#year").textContent = year;
 
-// Navigation Small Screen Button
+let monthNumbers = [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+];
+
+let d_mod = new Date(document.lastModified);
+let monthNum = monthNumbers[d_mod.getMonth()];
+let d_mod_format = `${monthNum}/${d_mod.getDate()}/${d_mod.getFullYear()} ${d_mod.getHours()}:${d_mod.getMinutes()}:${d_mod.getSeconds()}`;
+document.querySelector("#last").textContent = d_mod_format;
+
+// Navigation Small and Medium Screen Button
 
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("open");
@@ -42,3 +62,65 @@ function toggleMenu() {
 
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
+
+// Fetch Fruits API
+
+let fruit_list = [];
+let select1 = document.getElementById('#first_fruits');
+const url = "https://brotherblazzard.github.io/canvas-content/fruit.json";
+
+async function getData() {
+    const response = await fetch(url);
+    const data = await response.json();
+    displayData(data);
+};
+
+getData();
+
+function displayData(data) {
+
+    fruit_list = data;
+
+    const select1 = document.querySelector("#first_fruit");
+    const select2 = document.querySelector("#second_fruit");
+    const select3 = document.querySelector("#third_fruit");
+
+    fruit_list.forEach(fruits => {
+        let option = document.createElement('option');
+        let option2 = document.createElement('option');
+        let option3 = document.createElement('option');
+
+        option.value = fruits.name;
+        option.innerHTML = fruits.name;
+        option2.value = fruits.name;
+        option2.innerHTML = fruits.name;
+        option3.value = fruits.name;
+        option3.innerHTML = fruits.name;
+
+        select1.appendChild(option);
+        select2.appendChild(option2);
+        select3.appendChild(option3);
+    })
+};
+
+displayData();
+
+// Display Ordered Drinks
+
+function orderDrink() {
+    let fname = document.querySelector("#fname").value;
+    let email = document.querySelector("#email").value;
+    let phoneNum = document.querySelector("#phoneNum").value;
+
+    document.querySelector("#first_name").innerHTML = `Name: ${fname}`;
+    document.querySelector("#email2").innerHTML = `Email: ${email}`;
+    document.querySelector("#phone").innerHTML = `Phone Number: ${phoneNum}`;
+    
+};
+
+
+
+
+
+
+

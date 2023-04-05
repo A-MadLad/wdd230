@@ -154,8 +154,72 @@ header nav ul.open {
     display: none;
 }
 
-#primaryNav img {
+footer img {
     width: 25px;
     height: 25px;
     border-radius: 50%;
+}
+
+footer a{
+    margin-left: 30px;
+}
+
+/* Fresh Page */
+
+form fieldset {
+    margin: 2rem 0;
+    border: 2px solid #95675B;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #95675B;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 20px;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #95675B;
+    font-size: 20px;
+}
+
+form label.top input{
+    display: block;
+    font-size: 1rem;
+    border: solid 2px #95675B;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #95675B;
+    width: 100%;
+    max-width: 20rem;
+    background-color: white;
+}
+
+form button.submitBtn {
+    border: 2px solid #95675B;
+    background-color: #ECD7BC;
+    color: #95675B;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-size: 16px;
+}
+
+form button.submitBtn:hover {
+    background-color: #95675B;
+    color: #ECD7BC;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
 }
