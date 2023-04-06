@@ -242,6 +242,7 @@ form label.top input:required:valid {
     border: #95675B 2px solid;
     padding-top: 10px;
     padding-left: 30px;
+    margin-bottom: 10px;
 }
 
 /* About Us Page */
