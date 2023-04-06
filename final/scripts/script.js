@@ -72,6 +72,7 @@ const url = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 async function getData() {
     const response = await fetch(url);
     const data = await response.json();
+    console.log(data);
     displayData(data);
 };
 
@@ -111,16 +112,34 @@ function orderDrink() {
     let fname = document.querySelector("#fname").value;
     let email = document.querySelector("#email").value;
     let phoneNum = document.querySelector("#phoneNum").value;
+    let fruit1 = document.querySelector("#first_fruit").value;
+    let fruit2 = document.querySelector("#second_fruit").value;
+    let fruit3 = document.querySelector("#third_fruit").value;
+    let instructions = document.querySelector("#special_instructions").value;
+
+    let fruit1_name = fruit_list.find(name => name.name === fruit1);
+    let fruit2_name = fruit_list.find(name => name.name === fruit2);
+    let fruit3_name = fruit_list.find(name => name.name === fruit3);
+
+    let add_carbs = fruit1_name.nutritions.carbohydrates + fruit2_name.nutritions.carbohydrates + fruit3_name.nutritions.carbohydrates;
+    let add_protein = fruit1_name.nutritions.protein + fruit2_name.nutritions.protein + fruit3_name.nutritions.protein;
+    let add_fat = fruit1_name.nutritions.fat + fruit2_name.nutritions.fat + fruit3_name.nutritions.fat;
+    let add_sugar = fruit1_name.nutritions.sugar + fruit2_name.nutritions.sugar + fruit3_name.nutritions.sugar;
+    let add_cal = fruit1_name.nutritions.calories + fruit2_name.nutritions.calories + fruit3_name.nutritions.calories;
+    
 
     document.querySelector("#first_name").innerHTML = `Name: ${fname}`;
     document.querySelector("#email2").innerHTML = `Email: ${email}`;
     document.querySelector("#phone").innerHTML = `Phone Number: ${phoneNum}`;
+    document.querySelector("#fruit1").innerHTML = `First Fruit: ${fruit1}`;
+    document.querySelector("#fruit2").innerHTML = `Second Fruit: ${fruit2}`;
+    document.querySelector("#fruit3").innerHTML = `Last Fruit: ${fruit3}`;
+    document.querySelector("#instructions").innerHTML = `Instructions: ${instructions}`;
+
+    document.querySelector("#total_carb").innerHTML = `Total Carbs: ${add_carbs}`;
+    document.querySelector("#total_protein").innerHTML = `Total Protein: ${add_protein}`;
+    document.querySelector("#total_fat").innerHTML = `Total Fat: ${add_fat}`;
+    document.querySelector("#total_sugar").innerHTML = `Total Sugar: ${add_sugar}`;
+    document.querySelector("#total_cal").innerHTML = `Total Calories: ${add_cal}`;
     
 };
-
-
-
-
-
-
-
