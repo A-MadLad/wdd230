@@ -141,5 +141,8 @@ function orderDrink() {
     document.querySelector("#total_fat").innerHTML = `Total Fat: ${add_fat}`;
     document.querySelector("#total_sugar").innerHTML = `Total Sugar: ${add_sugar}`;
     document.querySelector("#total_cal").innerHTML = `Total Calories: ${add_cal}`;
-    
+
+    let new_date = new Date();
+
+    document.querySelector("#order_date").innerHTML = `Order Date: ${new_date}`;
 };

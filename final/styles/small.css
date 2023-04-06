@@ -244,10 +244,14 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
+
 #drinkOrder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
     color:#95675B;
-    padding-top: 10px;
-    padding-left: 30px;
     border: #95675B 2px solid;
 }
 
