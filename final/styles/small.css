@@ -62,6 +62,10 @@ header button {
     text-decoration: none;
 }
 
+#beach_img {
+    display: none;
+}
+
 #home_grid{
     display: flex;
     flex-direction: column;

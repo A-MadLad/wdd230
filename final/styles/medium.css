@@ -27,6 +27,16 @@
         color: #ECD7BC;
     }
 
+    #beach_img {
+        display: inline;
+        width: 300px;
+        border-radius: 75%;
+    }
+
+    #beach_img:hover {
+        transform: rotate(2deg);
+    }
+
     #home_grid{
         display: grid;
         grid-template-columns: repeat(2, 400px);
@@ -40,18 +50,21 @@
 
     #home_grid #summary_info {
         grid-row: 2;
-        grid-column: 1;
+        grid-column: span 2;
+        padding: 10px;        
     }
 
     #home_grid #number_drinks {
         grid-row: 1;
-        grid-column: span 2;
+        grid-column: 1;
     }
 
     #home_grid #weather_info {
-        grid-row: 2;
+        grid-row: 1;
         grid-column: 2;
+        padding: 10px; 
     }
+
 
 
 
