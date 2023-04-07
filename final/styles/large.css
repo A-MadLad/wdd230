@@ -51,8 +51,8 @@
 
     #home_grid{
         display: grid;
-        grid-template-columns: repeat(2, 800px);
-        grid-template-rows: repeat(3, 380px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
     #home_grid #contact_info {

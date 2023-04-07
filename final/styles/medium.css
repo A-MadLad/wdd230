@@ -27,6 +27,17 @@
         color: #ECD7BC;
     }
 
+    #number_drinks img {
+        display: inline;
+        width: 300px;
+        border-radius: 75%;
+
+    }
+
+    #number_drinks img:hover {
+        transform: rotate(2deg);
+    }
+
     #beach_img {
         display: inline;
         width: 300px;
@@ -39,7 +50,7 @@
 
     #home_grid{
         display: grid;
-        grid-template-columns: repeat(2, 400px);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
 
