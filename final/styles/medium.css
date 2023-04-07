@@ -48,6 +48,16 @@
         transform: rotate(2deg);
     }
 
+    #weather_info #cb {
+        display: inline;
+        width: 300px;
+        border-radius: 75%;
+    }
+
+    #weather_info #cb:hover {
+        transform: rotate(2deg);
+    }
+
     #home_grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -73,7 +83,7 @@
     #home_grid #weather_info {
         grid-row: 1;
         grid-column: 2;
-        padding: 10px; 
+        
     }
 
     #gMap {

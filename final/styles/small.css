@@ -88,6 +88,10 @@ header button:hover {
     display: none;
 }
 
+#weather_info #cb{
+    display: none;
+}
+
 footer {
     display: flex;
     flex-direction: row;
