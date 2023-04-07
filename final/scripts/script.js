@@ -145,4 +145,11 @@ function orderDrink() {
     let new_date = new Date();
 
     document.querySelector("#order_date").innerHTML = `Order Date: ${new_date}`;
+    
+
+    let drink_num = Number(localStorage.getItem("drink"));
+
+    drink_num++;
+    
+    localStorage.setItem("drink", drink_num);
 };
