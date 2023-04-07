@@ -58,6 +58,11 @@
         transform: rotate(2deg);
     }
 
+    #form_drink {
+        display: inline;
+        width: 300px;
+    }
+
     #home_grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
